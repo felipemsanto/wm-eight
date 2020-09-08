@@ -7,11 +7,76 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/AAB-logo.png" class="logo" alt=""></a>
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contato</a>
+                  </li>
+              </ul>
+
+
+          </div>
+      </div>
+  </nav>
+
+  <div class="box-fix">
+      <section class="bg-top">
+          <div class="overlay"></div>
+          <div class="container fix-zindex">
+              <div class="texto-bg">
+                  <div class="row">
+
+                      <div class="col-md-6 padding30">
+                          <h2>Seja muito bem-vindo(a)</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                              tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                              quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                              consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                              consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
+                              odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait
+                              nulla facilisi.</p>
+                      </div>
+
+                      <div class="col-md-6">
+                          <h2>Inscreva-se para nossa lista</h2>
+                          <form>
+                              <div class="form-group">
+                                  <label>Email address</label>
+                                  <input type="email" class="form-control" placeholder="Enter email">
+                              </div>
+                              <button style="background: #3FA3C5;border:0;width:200px;" type="submit"
+                                  class="btn btn-primary">Submit</button>
+                          </form>
+                      </div>
+
+                  </div>
+
+              </div>
+          </div>
+      </section>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
